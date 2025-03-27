@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     #own
     'post',
     'crispy_forms',
+    'crispy_bootstrap4',
     'authy',
     'comment',
     'directs',
@@ -150,3 +151,5 @@ LOGOUT_REDIRECT_URL = 'sign-in'
 LOGIN_URL = 'sign-in'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
